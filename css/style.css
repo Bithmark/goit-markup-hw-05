@@ -29,19 +29,6 @@ ol {
   padding: 0;
 }
 
-/* svg{
-  outline: 1px solid aqua;
-}
-
-li{
-  outline: 1px solid red;
-} */
-
-li, h1, h2, h3, p, a{
-    /* outline:none; */
-    /* outline: 1px solid red; */
-}
-
 h1,
 h2,
 h3,
@@ -72,14 +59,14 @@ img {
   height: 80px;
 }
 
-.header .container {
+/* .header .container {
   display: flex;
   align-items: center;
   height: 80px;  
-  /* border-bottom: 1px solid #ececec; */
+  border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 25px;
-}
+} */
 
 .position{
   position: relative;
@@ -119,7 +106,6 @@ img {
 .navigation-list-item:not(:last-child) {
   margin-right: 50px;
 }
-
 
 .navigation-list-information {
   margin-left: 305px;
@@ -209,6 +195,8 @@ img {
 .header-mail {
   color: var(--grey-color);
   text-decoration: none;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 /* !============================HERO==================== */
@@ -277,6 +265,7 @@ img {
   align-items: center;
   text-align: center;
   border: none;
+  cursor: pointer;
 }
 
 .visually-hidden {
