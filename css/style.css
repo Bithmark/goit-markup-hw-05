@@ -29,8 +29,17 @@ ol {
   padding: 0;
 }
 
+/* svg{
+  outline: 1px solid aqua;
+}
+
+li{
+  outline: 1px solid red;
+} */
+
 li, h1, h2, h3, p, a{
-    outline:none;
+    /* outline:none; */
+    /* outline: 1px solid red; */
 }
 
 h1,
@@ -165,8 +174,6 @@ img {
   color: var(--black-color);
   text-decoration: none;
 }
-
-
 
 .navigation-list-link,
 .header-mail,
