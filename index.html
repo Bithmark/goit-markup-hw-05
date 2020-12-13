@@ -70,7 +70,7 @@
                 </div>
 
                 <div class="container-link">
-                    <a href="" class="hero-link">Заказать услугу</a>
+                    <button type="button" class="hero-link" data-modal-open>Заказать услугу</button>
                 </div>
 
             </div>
@@ -465,6 +465,16 @@
 
     </footer>
 
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-btn" data-modal-close>
+                <svg class="icon-btn" width="18px" height="18px">
+                    <use href="./images/sprite.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
